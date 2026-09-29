@@ -1,0 +1,31 @@
+name: Actualizar lista M3U
+
+# Corre automaticamente cada 6 horas, y tambien se puede
+# disparar a mano desde la pestaña "Actions" de GitHub.
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Descargar el repositorio
+        uses: actions/checkout@v4
+
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Correr el script que aplica los parches
+        run: python actualizar_lista.py
+
+      - name: Guardar lista_final.m3u en el repositorio
+        run: |
+          git config --global user.name "actualizador-automatico"
+          git config --global user.email "actualizador@users.noreply.github.com"
+          git add lista_final.m3u
+          git diff --quiet --cached || git commit -m "Actualizacion automatica de la lista"
+          git push

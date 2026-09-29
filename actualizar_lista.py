@@ -30,8 +30,6 @@ import sys
 import os
 
 # ============ CONFIGURACIÓN ============
-# Pegá acá el link RAW de tu lista en GitHub
-# (el que empieza con https://raw.githubusercontent.com/...)
 URL_LISTA = "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ar.m3u"
 
 ARCHIVO_PARCHES = "parches.json"

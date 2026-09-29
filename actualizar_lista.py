@@ -32,7 +32,7 @@ import os
 # ============ CONFIGURACIÓN ============
 # Pegá acá el link RAW de tu lista en GitHub
 # (el que empieza con https://raw.githubusercontent.com/...)
-URL_LISTA = "PEGA_AQUI_TU_URL_RAW_DE_GITHUB"
+URL_LISTA = "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ar.m3u"
 
 ARCHIVO_PARCHES = "parches.json"
 ARCHIVO_SALIDA = "lista_final.m3u"

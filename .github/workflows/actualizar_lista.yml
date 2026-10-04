@@ -1,5 +1,8 @@
 name: Actualizar lista M3U
 
+permissions:
+  contents: write
+
 # Corre automaticamente cada 6 horas, y tambien se puede
 # disparar a mano desde la pestaña "Actions" de GitHub.
 on:
@@ -14,14 +17,14 @@ jobs:
       - name: Descargar el repositorio
         uses: actions/checkout@v4
         with:
-          fetch-depth: 0 # Descarga todo el historial para evitar conflictos de sincronización
+          fetch-depth: 0
 
       - name: Configurar Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
-      - name: Correr el script que aplica los parches
+      - name: Correr el script
         run: python actualizar_lista.py
 
       - name: Guardar lista_final.m3u en el repositorio
@@ -29,8 +32,8 @@ jobs:
           git config --global user.name "actualizador-automatico"
           git config --global user.email "actualizador@users.noreply.github.com"
           git add lista_final.m3u
-          # Si hay cambios, hace el commit y fuerza la subida a master
           if ! git diff --quiet --cached; then
             git commit -m "Actualizacion automatica de la lista"
-            git push --force origin master
+            git pull --rebase
+            git push
           fi

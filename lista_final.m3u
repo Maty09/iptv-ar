@@ -1,10 +1,10 @@
-#EXTM3U
+#EXTM3U url-tvg="https://iptv-epg.org/files/epg-ar.xml"
 #EXTINF:-1 tvg-id="5tv.ar@SD",5tv
 https://617c5175c970b.streamlock.net:4444/tvcinco/live1/playlist.m3u8
 #EXTINF:-1 tvg-id="5tv.ar@SD",5TV Corrientes (480p) [Not 24/7]
 http://www.coninfo.net:1935/tvcinco/live1/playlist.m3u8
-#EXTINF:-1 tvg-id="A24.ar@SD",A24 (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="A24.ar@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/a24-ar.png",A24 (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="ABTVBariloche.ar@SD",ABTV Bariloche
 https://videostream.shockmedia.com.ar/hls/abtvbariloche/abtvbariloche.m3u8
@@ -14,8 +14,8 @@ https://unlimited1-us.dps.live/airedesantafetv/airedesantafetv.smil/playlist.m3u
 https://mdstrm.com/live-stream-playlist/6931a0eb06778645348008e0.m3u8
 #EXTINF:-1 tvg-id="AlternaTV.ar@SD",Alterna TV (720p) [Not 24/7]
 https://tv.alterna.ar/stream/hls/live.m3u8
-#EXTINF:-1 tvg-id="AmericaTV.ar@SD",America TV (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
+#EXTINF:-1 tvg-id="AmericaTV.ar@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/america-ar.png",America TV (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://prepublish.f.qaotic.net/a07/americahls-100056/playlist_720p.m3u8
 #EXTINF:-1 tvg-id="ArgentinisimaSatelital.ar@SD",Argentinísima Satelital (540p)
 https://stream1.sersat.com/hls/argentinisima.m3u8
@@ -398,8 +398,8 @@ http://45.70.201.81:8000/play/a00i/index.m3u8
 http://45.70.201.81:8000/play/a00g/index.m3u8
 #EXTINF:-1 tvg-id="TelefeRosario.ar@SD",Telefe Rosario (720p) [Geo-blocked]
 https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8
-#EXTINF:-1 tvg-id="TelefeTucuman.ar@SD",Telefe Tucuman (1080p)
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; Build/QP1A.190711.020
+#EXTINF:-1 tvg-id="TelefeTucuman.ar@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png",Telefe Tucuman (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="Canal2MardelPlata.ar@SD",Canal 2 Mar del Plata (720p)
 https://tv.streamcasthd.com:3641/live/canal2mdplive.m3u8

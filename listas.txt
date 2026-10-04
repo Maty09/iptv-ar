@@ -1,3 +1,3 @@
 # Una URL RAW por linea. Las lineas que empiezan con # se ignoran.
-PEGA_AQUI_TU_URL_RAW_DE_GITHUB
+PEGAR URLS
 # https://raw.githubusercontent.com/usuario/otro-repo/main/otra_lista.m3u

@@ -1,0 +1,4 @@
+# Una URL de EPG (XMLTV, .xml o .xml.gz) por linea.
+# Puede ser un EPG publico o uno que subas a tu propio repositorio (link Raw).
+# Ejemplo:
+# https://raw.githubusercontent.com/TU_USUARIO/mi-lista-iptv/main/epg.xml

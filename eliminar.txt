@@ -1,0 +1,9 @@
+# Canales a eliminar de la lista final. Una regla por linea.
+# Se ignoran mayusculas/minusculas.
+#
+# Nombre exacto:
+#   Canal que no anda (720p)
+# Todo canal que contenga un texto:
+#   contiene: adultos
+# Un grupo entero (group-title):
+#   grupo: Radios

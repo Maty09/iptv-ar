@@ -1,5 +1,13 @@
 {
-  "A24 (720p)": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
-  "America TV (720p)": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
-  "Telefe Tucuman (1080p)": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, como Gecko) Chrome/112.0.0.0 Mobile Safari/537.36"
-}
+  "A24 (720p)": {
+    "user_agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/a24-ar.png"
+  },
+  "America TV (720p)": {
+    "user_agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/america-ar.png"
+  },
+  "Telefe Tucuman (1080p)": {
+    "user_agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png"
+  },

@@ -11,12 +11,13 @@ Actualizador de listas M3U (user agents + logos + varias listas + canales extra)
 
 import json
 import os
+import unicodedata
 import re
 import sys
 import urllib.request
 
 # Solo se usa si NO existe listas.txt
-URL_LISTA = "..."
+URL_LISTA = "PEGA_AQUI_TU_URL_RAW_DE_GITHUB"
 
 ARCHIVO_LISTAS = "listas.txt"
 ARCHIVO_PARCHES = "parches.json"
@@ -24,6 +25,7 @@ ARCHIVO_EXTRAS = "canales_extra.m3u"
 ARCHIVO_EPG = "epg.txt"
 ARCHIVO_ELIMINAR = "eliminar.txt"
 ARCHIVO_ROTOS = "enlaces_rotos.json"
+ARCHIVO_LOGOS = "logos.json"
 ARCHIVO_SALIDA = "lista_final.m3u"
 
 
@@ -76,8 +78,7 @@ def cargar_rotos():
        link -> {"motivo": "...", "eliminar": false}  (solo avisa, no borra)"""
     if not os.path.exists(ARCHIVO_ROTOS):
         return {}
-    with open(ARCHIVO_ROTOS, "r", encoding="utf-8") as f:
-        datos = json.load(f)
+    datos = cargar_json(ARCHIVO_ROTOS)
     rotos = {}
     for url, v in datos.items():
         if isinstance(v, str):
@@ -120,21 +121,40 @@ def descargar(url):
         return None
 
 
+def cargar_json(ruta):
+    """Lee un JSON y, si tiene un error de formato, explica donde esta."""
+    with open(ruta, "r", encoding="utf-8") as f:
+        texto = f.read()
+    try:
+        return json.loads(texto)
+    except json.JSONDecodeError as e:
+        lineas = texto.splitlines()
+        print(f"\nERROR en {ruta}: formato JSON invalido (linea {e.lineno}, columna {e.colno}).")
+        for n in range(max(1, e.lineno - 2), min(len(lineas), e.lineno) + 1):
+            marca = ">>" if n == e.lineno else "  "
+            print(f"  {marca} {n}: {lineas[n - 1]}")
+        print("Causas comunes: coma de mas despues del ultimo elemento,")
+        print("coma faltante entre dos elementos, o comillas “ ” en vez de \" \".")
+        sys.exit(1)
+
+
 def cargar_parches():
     """Acepta dos formatos por canal:
        "Canal": "user agent"                              (formato viejo)
        "Canal": {"user_agent": "...", "logo": "..."}      (formato nuevo)
     """
-    if not os.path.exists(ARCHIVO_PARCHES):
-        print(f"Aviso: no existe {ARCHIVO_PARCHES}, se sigue sin parches.")
-        return {}
-    with open(ARCHIVO_PARCHES, "r", encoding="utf-8") as f:
-        datos = json.load(f)
+    datos = {}
+    if os.path.exists(ARCHIVO_PARCHES):
+        datos = cargar_json(ARCHIVO_PARCHES)
     parches = {}
     for nombre, valor in datos.items():
         if isinstance(valor, str):
             valor = {"user_agent": valor}
         parches[nombre.strip().lower()] = valor
+    # logos.json: canal -> link del logo (no pisa un logo ya definido en parches.json)
+    if os.path.exists(ARCHIVO_LOGOS):
+        for nombre, logo in cargar_json(ARCHIVO_LOGOS).items():
+            parches.setdefault(nombre.strip().lower(), {}).setdefault("logo", logo)
     print(f"Parches cargados: {len(parches)} canal(es).")
     return parches
 
@@ -152,9 +172,60 @@ def poner_logo(extinf, logo):
     return extinf
 
 
+def sin_tildes(nombre):
+    n = unicodedata.normalize("NFD", nombre.lower())
+    n = "".join(c for c in n if unicodedata.category(c) != "Mn")
+    return re.sub(r"\s+", " ", n).strip()
+
+
+def normalizar(nombre):
+    """Nombre 'base' para comparar: sin tildes, sin mayusculas, sin etiquetas de
+    calidad como (720p), (1080p), (HD), ni HD/FHD/SD/4K al final."""
+    n = unicodedata.normalize("NFD", nombre.lower())
+    n = "".join(c for c in n if unicodedata.category(c) != "Mn")
+    n = re.sub(r"\(\s*(\d{3,4}\s*[pi]|hd|fhd|uhd|sd|4k)\s*\)", " ", n)
+    n = re.sub(r"\b(fhd|uhd|hd|sd|4k)\s*$", " ", n)
+    return re.sub(r"\s+", " ", n).strip()
+
+
+def buscar_parche(linea, parches, indice_base, indice_exacto):
+    """Junta los parches que apliquen a un canal. Prioridad (de menor a mayor):
+    1) coincidencia por nombre base (ignora resolucion/tildes)
+    2) coincidencia por tvg-id
+    3) coincidencia por nombre exacto (ignora tildes y mayusculas)
+    Un parche cuyo nombre incluye la resolucion, como "A24 (720p)", solo aplica
+    a ese canal exacto. Uno sin resolucion, como "A24", aplica a todas sus versiones.
+    Los campos del de mayor prioridad pisan a los otros."""
+    nombre = nombre_canal(linea)
+    exacto = sin_tildes(nombre)
+    m = re.search(r'tvg-id="([^"]*)"', linea)
+    tid = m.group(1).strip().lower() if m else ""
+
+    candidatos = []  # (clave, parche) de menor a mayor prioridad
+    base = normalizar(nombre)
+    for k in indice_base.get(base, []):
+        candidatos.append(k)
+    if tid and tid in parches:
+        candidatos.append(tid)
+    if exacto and exacto in indice_exacto:
+        candidatos.append(indice_exacto[exacto])
+
+    fusion, claves = {}, []
+    for k in candidatos:
+        if k not in claves:
+            claves.append(k)
+            fusion.update(parches[k])
+    return fusion, claves
+
+
 def procesar(lineas, parches, reglas, rotos):
     salida, usados = [], set()
     rotos_vistos, informe = set(), []
+    indice_base, indice_exacto = {}, {}
+    for k in parches:
+        indice_exacto[sin_tildes(k)] = k
+        if normalizar(k) == sin_tildes(k):  # clave sin etiqueta de calidad
+            indice_base.setdefault(normalizar(k), []).append(k)
     total = con_ua = con_logo = eliminados = 0
     i = 0
     while i < len(lineas):
@@ -182,8 +253,7 @@ def procesar(lineas, parches, reglas, rotos):
             continue
 
         total += 1
-        clave = nombre_canal(linea).lower()
-        parche = parches.get(clave)
+        parche, claves = buscar_parche(linea, parches, indice_base, indice_exacto)
         meta = []
         i += 1
         while i < len(lineas) and lineas[i].startswith("#"):
@@ -191,7 +261,7 @@ def procesar(lineas, parches, reglas, rotos):
             i += 1
 
         if parche:
-            usados.add(clave)
+            usados.update(claves)
             if parche.get("logo"):
                 linea = poner_logo(linea, parche["logo"])
                 con_logo += 1
@@ -232,18 +302,24 @@ def procesar(lineas, parches, reglas, rotos):
 
 def main():
     epgs = leer_epg()
-    cabecera = "#EXTM3U"
-    if epgs:
-        cabecera += f' url-tvg="{",".join(epgs)}"'
-        print(f"EPG configurado: {len(epgs)} fuente(s).")
-    lineas = [cabecera]
+    epgs_origen = []
+    lineas = []
     ok = 0
     for url in leer_urls():
         texto = descargar(url)
         if texto is None:
             continue
         ok += 1
-        lineas += [l for l in texto.splitlines() if not l.startswith("#EXTM3U")]
+        for l in texto.splitlines():
+            if l.startswith("#EXTM3U"):
+                m = re.search(r'url-tvg="([^"]*)"', l)
+                if m:
+                    for u in m.group(1).split(","):
+                        u = u.strip()
+                        if u and u not in epgs_origen:
+                            epgs_origen.append(u)
+            else:
+                lineas.append(l)
 
     if ok == 0:
         print("ERROR: no se pudo descargar ninguna lista.")
@@ -254,6 +330,15 @@ def main():
             extras = [l.rstrip("\n") for l in f if not l.startswith("#EXTM3U")]
         print(f"Canales extra sumados desde {ARCHIVO_EXTRAS}")
         lineas += extras
+
+    # epg.txt manda; si esta vacio se conserva el EPG de la lista original
+    final_epgs = epgs or epgs_origen
+    cabecera = "#EXTM3U"
+    if final_epgs:
+        cabecera += f' url-tvg="{",".join(final_epgs)}"'
+    print(f"EPG en la lista final: {len(final_epgs)} fuente(s)"
+          f" ({'epg.txt' if epgs else 'lista original'}).")
+    lineas.insert(0, cabecera)
 
     resultado = procesar(lineas, cargar_parches(), leer_eliminar(), cargar_rotos())
     with open(ARCHIVO_SALIDA, "w", encoding="utf-8") as f:

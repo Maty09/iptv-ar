@@ -16,7 +16,7 @@ import sys
 import urllib.request
 
 # Solo se usa si NO existe listas.txt
-URL_LISTA = "https://raw.githubusercontent.com/iptv-org/iptv/refs/heads/master/streams/ar.m3u"
+URL_LISTA = "..."
 
 ARCHIVO_LISTAS = "listas.txt"
 ARCHIVO_PARCHES = "parches.json"

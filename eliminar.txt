@@ -7,3 +7,4 @@
 #   contiene: adultos
 # Un grupo entero (group-title):
 #   grupo: Radios
+http://15.204.246.24:8080/DisneyHD/index.m3u8

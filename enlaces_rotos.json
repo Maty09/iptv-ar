@@ -1,5 +1,4 @@
 {
-  "http://15.204.246.24:8080/DisneyHD/index.m3u8": "Dejo de funcionar",
   "http://15.204.246.24:8080/DisneyHD/index.m3u8": {
     "motivo": "Perdida de Conexion",
     "eliminar": false

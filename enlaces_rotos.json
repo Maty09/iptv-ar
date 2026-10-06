@@ -1,7 +1,7 @@
 {
-  "http://ejemplo.com/canal1/index.m3u8": "Dejo de funcionar",
-  "http://ejemplo.com/canal2/index.m3u8": {
-    "motivo": "Falta user agent, probar otro",
+  "http://15.204.246.24:8080/DisneyHD/index.m3u8": "Dejo de funcionar",
+  "http://15.204.246.24:8080/DisneyHD/index.m3u8": {
+    "motivo": "Perdida de Conexion",
     "eliminar": false
   }
 }

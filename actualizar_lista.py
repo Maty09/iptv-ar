@@ -242,7 +242,7 @@ def procesar(lineas, parches, reglas, rotos):
             rotos_vistos.add(url_canal)
             informe.append((nombre_canal(linea), url_canal, roto))
 
-        if (roto and roto["eliminar"]) or debe_eliminarse(linea, reglas):
+        if (roto and roto["eliminar"]) or debe_eliminarse(linea, url_canal, reglas):
             eliminados += 1
             i += 1
             while i < len(lineas) and lineas[i].startswith("#"):

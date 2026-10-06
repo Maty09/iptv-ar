@@ -51,12 +51,7 @@ def leer_epg():
 
 
 def leer_eliminar():
-    """Reglas de eliminar.txt. Formatos por linea:
-       Nombre exacto del canal
-       contiene: texto      (borra todo canal cuyo nombre incluya ese texto)
-       grupo: Nombre        (borra todo un group-title)
-    """
-    nombres, contiene, grupos = set(), [], set()
+    nombres, contiene, grupos, urls = set(), [], set(), set()
     if os.path.exists(ARCHIVO_ELIMINAR):
         with open(ARCHIVO_ELIMINAR, "r", encoding="utf-8") as f:
             for l in f:
@@ -64,13 +59,15 @@ def leer_eliminar():
                 if not l or l.startswith("#"):
                     continue
                 bajo = l.lower()
-                if bajo.startswith("contiene:"):
+                if bajo.startswith("http://") or bajo.startswith("https://"):
+                    urls.add(l)
+                elif bajo.startswith("contiene:"):
                     contiene.append(bajo[9:].strip())
                 elif bajo.startswith("grupo:"):
                     grupos.add(bajo[6:].strip())
                 else:
                     nombres.add(bajo)
-    return nombres, contiene, grupos
+    return nombres, contiene, grupos, urls
 
 
 def cargar_rotos():
@@ -89,12 +86,13 @@ def cargar_rotos():
     return rotos
 
 
-def debe_eliminarse(extinf, reglas):
-    nombres, contiene, grupos = reglas
+def debe_eliminarse(extinf, url_canal, reglas):
+    nombres, contiene, grupos, urls = reglas
     nombre = nombre_canal(extinf).lower()
     m = re.search(r'group-title="([^"]*)"', extinf)
     grupo = m.group(1).strip().lower() if m else ""
     return (nombre in nombres
+            or url_canal.strip() in urls
             or any(c and c in nombre for c in contiene)
             or grupo in grupos)
 

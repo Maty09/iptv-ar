@@ -1,14 +1,806 @@
 {
+  "5tv": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/5tv-ar.png"
+  },
+  "5TV Corrientes (480p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/5tv-ar.png"
+  },
   "A24 (720p)": {
     "user_agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/a24-ar.png"
+  },
+  "ABTV Bariloche": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Aire de Santa Fe (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/aire-de-santa-fe-ar.png"
+  },
+  "Aire de Santa Fe": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/aire-de-santa-fe-ar.png"
+  },
+  "Alterna TV (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
   },
   "America TV (720p)": {
     "user_agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/america-ar.png"
   },
+  "Argentinísima Satelital (540p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/argentinisima-satelital-ar.png"
+  },
+  "Azahares Radio Multimedia (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Bayres TV (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Beats Radio (480p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Bragado TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Bravo TV (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/bravo-tv-ar.png"
+  },
+  "BVC": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Cable Imagen Armstrong (540p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Cadena 103 (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Cadena103.TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 2 de Ushuaia (1080p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 2 Gualeguay": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 2 Misiones (1080p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 2 NexTV Rafaela (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 3 Formosa": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 3 La Pampa (1080p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 3 Las Heras (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 3 Pinamar": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 3 Tacural": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 4 Esquel": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 4 Jujuy": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-4-jujuy-ar.png"
+  },
+  "Canal 4 Posadas (576p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 4 San Juan (576p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 4 Teleaire": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 4 Villa Dolores": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 5 Del Pueblo [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 5 Santa Fe (240p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 5 TV Chepes": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 6 Posadas (1080p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 6 Viento Recio": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 7 Jujuy": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-7-jujuy-ar.png"
+  },
+  "Canal 7 Neuquén (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-7-neuquen-ar.png"
+  },
+  "Canal 7 Salta (1080p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 7 Salta (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 7 Santiago del Estero (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 9 Link": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 9 Litoral (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-9-litoral-ar.png"
+  },
+  "Canal 9 Resistencia (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-9-resistencia-ar.png"
+  },
+  "Canal 10 Cordoba": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-10-cordoba-ar.png"
+  },
+  "Canal 10 Mar del Plata": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-10-mar-del-plata-ar.png"
+  },
+  "Canal 12 Puerto Madryn (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 12 Web": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 13 Jujuy TV (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 13 La Rioja (480p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 13 San Luis": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-13-san-luis-ar.png"
+  },
+  "Canal 21 TV (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-21-ar.png"
+  },
+  "Canal 22 (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 26 (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-26-ar.png"
+  },
+  "Canal 26": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-26-ar.png"
+  },
+  "Canal 50 Morteros": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 79 La Costa (240p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 79 Mar del Plata": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 79 Puan (240p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 79 Santa Clara del Mar (240p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 79 Villa Maza": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 99 Miramar": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal E (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-e-ar.png"
+  },
+  "Canal Luz": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-luz-ar.png"
+  },
+  "Canal Orbe 21": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-orbe-21-ar.png"
+  },
+  "Canal Provincial (360p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal Pulpo TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal Santa María (360p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal Showsport (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/showsport-ar.png"
+  },
+  "Canal TDC": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal Universidad": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Caras TV (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/caras-tv-ar.png"
+  },
+  "Caras TV": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/caras-tv-ar.png"
+  },
+  "Catamarca TV (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Celta TV (240p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Chaco TV (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/chaco-tv-ar.png"
+  },
+  "Chacra TV": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/chacra-tv-ar.png"
+  },
+  "Chamame TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Ciudad Magica (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Correa Radiovision": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Corrientes TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Cosmos Tv": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Cumbia Mix (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Disney Channel Latin America (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/disney-channel-lam.png"
+  },
+  "Disney Channel Latin America Center (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/disney-channel-lam.png"
+  },
+  "Disney Channel Latin America Mexico (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/mexico/disney-channel-mx.png"
+  },
+  "Disney Channel Latin America North (576p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/disney-channel-lam.png"
+  },
+  "Disney Channel Latin America Panregional HD (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/disney-channel-lam.png"
+  },
+  "Disney Jr. Latin America (576p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/disney-junior-lam.png"
+  },
+  "Disney Jr. Latin America North HD (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/disney-junior-lam.png"
+  },
+  "Disney Jr. Latin America South (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/disney-junior-lam.png"
+  },
+  "Disney Jr. Latin America South": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/disney-junior-lam.png"
+  },
+  "Disney Jr. Latin America South HD (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/disney-junior-lam.png"
+  },
+  "Eco TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "El Gourmet (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/el-gourmet-ar.png"
+  },
+  "El Nueve (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/elnueve-ar.png"
+  },
+  "El Siete (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/el-siete-mendoza-ar.png"
+  },
+  "El Trece (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/eltrece-ar.png"
+  },
+  "El Trece (480p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/eltrece-ar.png"
+  },
+  "Film & Arts (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/film-and-arts-lam.png"
+  },
+  "Folcloreando TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Garage TV Latin America": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/el-garage-tv-ar.png"
+  },
+  "IP Noticias (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/ip-informacion-periodistica-ar.png"
+  },
+  "Itel TV Canal 2": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Kpop Mix (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "La 100 (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/la-100-ar.png"
+  },
+  "Más FM 95.9 (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Mercurio Noticias": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Metro TV (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/metro-ar.png"
+  },
+  "Misiones Cuatro": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/misiones-cuatro-ar.png"
+  },
+  "MusicTop (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/music-top-ar.png"
+  },
+  "Neo TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "NET TV (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/net-tv-ar.png"
+  },
+  "NG Federal (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/ng-federal-ar.png"
+  },
+  "NG Federal": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/ng-federal-ar.png"
+  },
+  "Panc TV (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Power Max Radio TV (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "PowerHD": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Quantica TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Radio Conexion Web TV (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Radio Maria TV (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/radio-maria-ar.png"
+  },
+  "Radio Realpolitik (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Radio Sublime Gracia TV (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Radio TV Neuquén (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Radio UP (1080p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Radio Yguazú TV (480p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Radiocanal San Francisco (1080p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Retroclub (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "RTN (Neuquén) (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/rtn-neuquen-ar.png"
+  },
+  "San Luis +": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "San Pedro TV (1080p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Senal U": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/senal-u-ar.png"
+  },
+  "Senillosa TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Sicardi TV (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Solive TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Sony Channel (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/sony-channel-lam.png"
+  },
+  "T5 Satelital": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/t5-satelital-ar.png"
+  },
+  "TeleCinco Trelew (240p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Telefe Buenos Aires (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png"
+  },
+  "Telefe Interior (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png"
+  },
+  "Telefe Internacional (576p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-internacional-ar.png"
+  },
+  "Telemax": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telemax-ar.png"
+  },
+  "Telenord (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Telenord Corrientes (1080p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "TIV Television (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "TN (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tn-todo-noticias-ar.png"
+  },
+  "TV Canal 72": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "TV Maná Argentina (576p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "TV Publica (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/television-publica-ar.png"
+  },
+  "TV Publica Fueguina (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tv-publica-fueguina-ar.png"
+  },
+  "TV Solidaria (576p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "TV Universidad": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tv-universidad-ar.png"
+  },
+  "TyC Sports (1080p) [Geo-blocked]": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tyc-sports-ar.png"
+  },
+  "TyC Sports (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tyc-sports-ar.png"
+  },
+  "TyC Sports USA": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tyc-sports-ar.png"
+  },
+  "Unife TV": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/unife-ar.png"
+  },
+  "Uniteve (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/uniteve-ar.png"
+  },
+  "Urban Mix (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "VerTV (VTV) (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Villa Mantero TV": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "X Level Media (1080p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Xama TV": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/xama-tv-ar.png"
+  },
+  "Xtrema Accion": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Xtrema Cartoons": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Xtrema Cine Clasico": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Xtrema Terror": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 8 San Juan (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-8-san-juan-ar.png"
+  },
+  "El Gourmet South (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/el-gourmet-ar.png"
+  },
+  "Europa Europa (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/europa-europa-lam.png"
+  },
+  "Telesol (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telesol-ar.png"
+  },
+  "The Cabbin FM": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Somos Entre Rios (360p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "24/7 Canal de Noticias": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/24-7-canal-de-noticias-ar.png"
+  },
+  "Tele Posadas HD (720p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "TyC Sports (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/tyc-sports-ar.png"
+  },
+  "Volver (576p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/volver-ar.png"
+  },
+  "Disney Jr. Latin America South (576p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/disney-junior-lam.png"
+  },
+  "Telefe Rosario (720p) [Geo-blocked]": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-rosario-ar.png"
+  },
   "Telefe Tucuman (1080p)": {
     "user_agent": "Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png"
+  },
+  "Canal 2 Mar del Plata (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-2-mar-del-plata-ar.png"
+  },
+  "Ciudad TV Resistencia (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/ciudad-tv-ar.png"
+  },
+  "Santa Fe Canal (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/rts-ar.png"
+  },
+  "Litus TV (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/litus-tv-ar.png"
+  },
+  "Canal 8 Mar del Plata (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-8-mar-del-plata-ar.png"
+  },
+  "Telefe Salta": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-salta-ar.png"
+  },
+  "Neox TV [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Norte TV (720p) [Not 24/7]": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Plim Plim": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/el-reyno-infantil-ar.png"
+  },
+  "Plim Plim (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/el-reyno-infantil-ar.png"
+  },
+  "Telefe Internacional (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-internacional-ar.png"
+  },
+  "El Trece Internacional Latin America (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/eltrece-internacional-ar.png"
+  },
+  "Encuentro (720p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/encuentro-ar.png"
+  },
+  "A24 (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/a24-ar.png"
+  },
+  "A24": {
+    "user_agent": "Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/a24-ar.png"
+  },
+  "Telefe (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/telefe-ar.png"
+  },
+  "LAMIL35 TV (480p)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 12 Venado Tuerto (1080i)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Pakapaka (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/pakapaka-ar.png"
+  },
+  "Cronica TV (1080p)": {
+    "user_agent": "",
+    "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/cronica-hd-ar.png"
   }
 }

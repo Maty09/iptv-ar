@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Actualizador de listas M3U (User Agents + Logos + Múltiples listas)
+Actualizador de listas M3U (User Agents + Logos + Múltiples listas + Depuración por URL)
 """
 
 import json
@@ -106,6 +106,14 @@ def normalizar(nombre):
     return re.sub(r"\s+", " ", n).strip()
 
 
+def limpiar_url(url):
+    """
+    Normaliza la URL removiendo parámetros genéricos de consulta/sufijos
+    como ?PlaylistM3UCL para detectar transmisiones duplicadas.
+    """
+    return url.strip().split("?PlaylistM3UCL")[0].strip()
+
+
 def debe_eliminarse(extinf, url_canal, reglas):
     nombres, contiene, grupos, urls = reglas
     nombre = nombre_canal(extinf).lower()
@@ -142,8 +150,9 @@ def descargar(url):
 
 def procesar(lineas, parches, reglas, rotos):
     salida, usados = [], set()
+    urls_vistas = set()
     rotos_vistos, informe = set(), []
-    total = con_ua = con_logo = eliminados = 0
+    total = con_ua = con_logo = eliminados = duplicados_omitidos = 0
 
     i = 0
     while i < len(lineas):
@@ -161,18 +170,26 @@ def procesar(lineas, parches, reglas, rotos):
             j += 1
         
         url_canal = lineas[j].strip() if j < len(lineas) else ""
+        url_base = limpiar_url(url_canal)
 
-        roto = rotos.get(url_canal)
+        # Depuración: Evitar duplicados por URL de transmisión
+        if url_base in urls_vistas:
+            duplicados_omitidos += 1
+            i = j + 1
+            continue
+
+        roto = rotos.get(url_canal) or rotos.get(url_base)
         if roto:
             rotos_vistos.add(url_canal)
             informe.append((nombre_canal(linea), url_canal, roto))
 
-        # Verificar si se debe eliminar
+        # Verificar si se debe eliminar por regla o estar roto
         if (roto and roto["eliminar"]) or debe_eliminarse(linea, url_canal, reglas):
             eliminados += 1
             i = j + 1  # Saltar todo el bloque hasta pasada la URL
             continue
 
+        urls_vistas.add(url_base)
         total += 1
         nombre = nombre_canal(linea)
         exacto = sin_tildes(nombre)
@@ -202,10 +219,11 @@ def procesar(lineas, parches, reglas, rotos):
         
         i = j + 1
 
-    print(f"\nCanales totales: {total}")
+    print(f"\nCanales totales procesados: {total}")
+    print(f"Canales duplicados eliminados: {duplicados_omitidos}")
     print(f"Con user agent aplicado: {con_ua}")
     print(f"Con logo aplicado: {con_logo}")
-    print(f"Canales eliminados: {eliminados}")
+    print(f"Canales eliminados por filtros: {eliminados}")
 
     if informe:
         print("\nENLACES MARCADOS COMO ROTOS:")

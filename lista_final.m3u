@@ -470,6 +470,12 @@ http://190.128.214.97:64333/play/a06l/index.m3u8
 https://k-fra32.x10.network/Clrs/test/hls/1158394/playlist.m3u8
 #EXTINF:-1 tvg-id="FilmArts.ar@Panregional" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/film-and-arts-lam.png",Film & Arts (1080p)
 http://200.115.120.1:8000/play/ca131/index.m3u8
+#EXTINF:-1 tvg-id="Space.ar@Panregional",Space (1080p)
+http://45.171.64.30:6060/play/a04n/index.m3u8
+#EXTINF:-1 tvg-id="FoxSports.ar@SD",Fox Sports (1080p)
+http://138.59.227.20:8000/play/a085/index.m3u8
+#EXTINF:-1 tvg-id="TelevisionPublica.ar@SD",Television Publica (1080p)
+http://190.128.214.97:64333/play/a008/index.m3u8
 ===ARGENTINA===
 #EXTINF:-1 tvg-id="" tvg-name="ESPN+" tvg-logo="https://static.epg.best/mx/ESPNplus.mx.png" group-title="ARGENTINA",ESPN+
 #EXTINF:-1 tvg-id="" tvg-name=" Fox Sports Premium HQ." tvg-logo="https://i.ibb.co/Hh0F9D6/FOXSPORTSPREMIUM.jpg" group-title="ARGENTINA", Fox Sports Premium

@@ -13,3 +13,5 @@ http://15.204.246.24:8080/UniversalHD/index.m3u8
 http://138.121.15.230:9002/UNIVERSAL-CHANNEL/index.m3u8
 #EXTINF:-1 tvg-id="UniversalTVLatinAmerica.us@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Universal_TV_logo.svg/960px-Universal_TV_logo.svg.png" group-title="",Universal TV Latin America (1080p)
 http://181.119.66.28:8081/Universal-HD/index.m3u8
+#EXTINF:-1 tvg-id="TVEStar.es@HD" tvg-logo="https://i.ibb.co/j98NY8Mr/starcolor.png",TVE Star HD (1080p)
+https://rtvelivestream-rtveplayplus.rtve.es/rtvesec/int/star_main_1080.m3u8

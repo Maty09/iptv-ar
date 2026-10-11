@@ -803,8 +803,16 @@
     "user_agent": "",
     "logo": "https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/cronica-hd-ar.png"
   },
-"Space (1080p)": {
+  "Space (1080p)": {
     "user_agent": "",
     "logo": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPteTsp2zPkNGIK2aC8M1_bKG7FUZBaFHrg&usqp=CAU"
+  },
+  "Canal 12 Venado Tuerto (1080i)": {
+    "user_agent": "",
+    "logo": ""
+  },
+  "Canal 12 Venado Tuerto (1080i)": {
+    "user_agent": "",
+    "logo": ""
   }
 }

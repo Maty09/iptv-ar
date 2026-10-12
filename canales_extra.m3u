@@ -25,3 +25,5 @@ http://167.249.23.102:8000/play/a0g8/index.m3u8
 http://181.78.79.131:8000/play/a0qm
 #EXTINF:-1 tvg-id="BragadoTV.ar@SD", Bragado TV
 https://vivo.solumedia.com:19360/bragadato/bragadato.m3u8
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/adnX4DksDb0f0baaFQOMeEDuW21K-CNNcP_wGGGbDosTLDQCla7MlM07AhQU4H0Kv0rCQ-8-Gw=s240-c-k-c0x00ffffff-no-rj", Canal 10 Tucumán (YouTube)
+https://www.youtube.com/channel/UCRlakPhec4-k3vkBeyWBojg/live

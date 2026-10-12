@@ -85,7 +85,7 @@ def cargar_parches():
     for nombre, valor in datos.items():
         if isinstance(valor, str):
             valor = {"user_agent": valor}
-        parches[nombre.strip().lower()] = valor
+        parches[sin_tildes(nombre)] = valor
     print(f"Parches cargados: {len(parches)} canal(es).")
     return parches
 

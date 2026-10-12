@@ -23,3 +23,5 @@ http://181.78.79.131:8000/play/a0qy
 http://167.249.23.102:8000/play/a0g8/index.m3u8
 #EXTINF:-1 tvg-id="NICKELODEON.ar" tvg-logo="https://i.imgur.com/E84jnP8.png", Nickelodeon HD
 http://181.78.79.131:8000/play/a0qm
+#EXTINF:-1 tvg-id="BragadoTV.ar@SD" tvg-logo="https://i.imgur.com/xP88fKG.png", Bragado TV
+https://vivo.solumedia.com:19360/bragadato/bragadato.m3u8

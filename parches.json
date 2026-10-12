@@ -559,10 +559,6 @@
     "user_agent": "",
     "logo": ""
   },
-  "TN (1080p)": {
-    "user_agent": "Dalvik/2.1.0 (Linux; U; Android 10; Build/QP1A.190711.020)",
-    "logo": "https://github.com/tv-logo/tv-logos/blob/main/countries/argentina/tn-todo-noticias-ar.png?raw=true"
-  },
   "TV Canal 72": {
     "user_agent": "",
     "logo": "https://tvcanal72.com.ar/wp-content/uploads/2022/08/LOGO-CANAL-72-1-1024x256.png"

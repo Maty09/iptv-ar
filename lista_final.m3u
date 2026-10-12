@@ -408,6 +408,8 @@ http://181.78.79.131:8000/play/a0qy
 http://167.249.23.102:8000/play/a0g8/index.m3u8
 #EXTINF:-1 tvg-id="NICKELODEON.ar" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon HD
 http://181.78.79.131:8000/play/a0qm
+#EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/adnX4DksDb0f0baaFQOMeEDuW21K-CNNcP_wGGGbDosTLDQCla7MlM07AhQU4H0Kv0rCQ-8-Gw=s240-c-k-c0x00ffffff-no-rj",Canal 10 Tucumán (YouTube)
+https://www.youtube.com/channel/UCRlakPhec4-k3vkBeyWBojg/live
 #EXTINF:-1 tvg-id="A24.ar@SD" tvg-logo="https://i.imgur.com/LnXQkIU.png" group-title="Respaldos",A24 (2)
 #EXTVLCOPT:http-referrer=https://vmf.edge-apps.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36

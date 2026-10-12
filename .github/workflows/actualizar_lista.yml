@@ -24,14 +24,17 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Limpiar parches de enlaces eliminados
+        run: python limpiar_parches.py
+
       - name: Correr el script
         run: python actualizar_lista.py
 
-      - name: Guardar lista_final.m3u en el repositorio
+      - name: Guardar lista_final.m3u y parches.json en el repositorio
         run: |
           git config --global user.name "actualizador-automatico"
           git config --global user.email "actualizador@users.noreply.github.com"
-          git add lista_final.m3u
+          git add lista_final.m3u parches.json
           if ! git diff --quiet --cached; then
             git commit -m "Actualizacion automatica de la lista"
             git pull --rebase

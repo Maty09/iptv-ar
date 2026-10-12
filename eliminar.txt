@@ -20,3 +20,4 @@ http://bantel-cdn1.iptvperu.tv:1935/btnscrtn/disney_jr.stream/playlist.m3u8
 http://138.59.227.20:8000/play/a06w/index.m3u8
 https://barinaslive1.boldmss.com/DISNEY/DISNEY.isml/DISNEY.m3u8
 https://mp.panelchs.com:1936/8028/ngrp:8028_all/playlist.m3u8
+https://g5.vxral-slo.transport.edge-access.net/a12/ngrp:a24-100056_all/playlist.m3u8?sense=true

@@ -23,7 +23,7 @@ ARCHIVO_SALIDA = "lista_final.m3u"
 # resolucion queda en su categoria y los demas pasan a la categoria de respaldos.
 AGRUPAR_RESPALDOS = True
 CATEGORIA_RESPALDOS = "Respaldos"
-# Quita la resolucion del nombre mostrado: "A24 (1080p)" -> "A24"
+# Quita la resolucion del nombre mostrado: "Canal (1080p)" -> "Canal"
 LIMPIAR_RESOLUCION_EN_NOMBRE = True
 
 

@@ -262,9 +262,6 @@ https://617c5175c970b.streamlock.net:4444/previsoratv/live/playlist.m3u8
 http://www.coninfo.net:1935/previsoratv/live/playlist.m3u8
 #EXTINF:-1 tvg-id="TIVTelevision.ar@SD",TIV Television
 https://videohd.live:19360/8008/8008.m3u8
-#EXTINF:-1 tvg-id="TN.ar@SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/argentina/tn-todo-noticias-ar.png?raw=true",TN
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; Build/QP1A.190711.020)
-http://15.204.246.24:8080/TNHD/index.m3u8
 #EXTINF:-1 tvg-id="TVCanal72.ar@SD" tvg-logo="https://tvcanal72.com.ar/wp-content/uploads/2022/08/LOGO-CANAL-72-1-1024x256.png",TV Canal 72
 https://stmv1.voxtvhd.com.br/canal72tv2/canal72tv2/playlist.m3u8
 #EXTINF:-1 tvg-id="TVManaArgentina.ar@SD" tvg-logo="https://i.imgur.com/jars0mP.png",TV Maná Argentina [Not 24/7]
@@ -411,6 +408,10 @@ http://167.249.23.102:8000/play/a0g8/index.m3u8
 http://181.78.79.131:8000/play/a0qm
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/adnX4DksDb0f0baaFQOMeEDuW21K-CNNcP_wGGGbDosTLDQCla7MlM07AhQU4H0Kv0rCQ-8-Gw=s240-c-k-c0x00ffffff-no-rj",Canal 10 Tucumán (YouTube)
 https://www.youtube.com/channel/UCRlakPhec4-k3vkBeyWBojg/live
+#EXTINF:-1 tvg-id="TN.ar" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/argentina/tn-todo-noticias-ar.png?raw=true" group-title="News",TN
+#EXTVLCOPT:http-referrer=https://tn.com.ar/envivo/24hs
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+https://live-01-01-tn.vodgc.net/TN_DAI_Beta/index.m3u8
 #EXTINF:-1 tvg-id="A24.ar@SD" tvg-logo="https://i.imgur.com/LnXQkIU.png" group-title="Respaldos",A24 (2)
 #EXTVLCOPT:http-referrer=https://vmf.edge-apps.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -475,9 +476,6 @@ http://45.70.168.162:1503/play/a02a/index.m3u8
 http://190.60.55.141:9083/play/a0pb/index.m3u8
 #EXTINF:-1 tvg-id="TelefeInternacional.ar@SD" tvg-logo="https://i.imgur.com/HNcCX3h.png" group-title="Respaldos",Telefe Internacional (3)
 http://190.108.83.69:8000/play/a08l/index.m3u8
-#EXTINF:-1 tvg-id="TN.ar@SD" tvg-logo="https://github.com/tv-logo/tv-logos/blob/main/countries/argentina/tn-todo-noticias-ar.png?raw=true" group-title="Respaldos",TN (2)
-#EXTVLCOPT:http-user-agent=Dalvik/2.1.0 (Linux; U; Android 10; Build/QP1A.190711.020)
-http://playcom.trapemn.tv:1935/transcoderip/tn.stream/playlist.m3u8
 #EXTINF:-1 tvg-id="TyCSports.ar@SD" group-title="Respaldos",TyC Sports (2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 11.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.6998.166 Safari/537.36
 https://live-04-11-tyc-app-web.vodgc.net/tyc24/index.m3u8

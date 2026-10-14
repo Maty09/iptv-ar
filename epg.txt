@@ -1,2 +1,1 @@
-# Una URL de EPG (XMLTV, .xml o .xml.gz) por linea.
-https://iptv-epg.org/files/epg-ar.xml
+# Por el momento no hay una lista epg para los canales

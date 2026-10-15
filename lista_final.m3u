@@ -370,8 +370,7 @@ http://190.128.214.97:64333/play/a057/index.m3u8
 http://190.128.214.97:64333/play/a06l/index.m3u8
 #EXTINF:-1 tvg-id="Canal7TV.ar@SD",Canal 7 TV [Not 24/7]
 https://k-fra32.x10.network/Clrs/test/hls/1158394/playlist.m3u8
-#EXTINF:-1 tvg-id="Space.ar@Panregional" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/SpaceLogo.svg/960px-SpaceLogo.svg.png",Space
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="Space.ar@Panregional",Space
 http://45.171.64.30:6060/play/a04n/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports.ar@SD",Fox Sports
 http://138.59.227.20:8000/play/a085/index.m3u8
@@ -428,9 +427,10 @@ https://www.youtube.com/channel/UCRlakPhec4-k3vkBeyWBojg/live
 #EXTINF:-1 tvg-name="ESPN 1 | Argentina" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/espn-lam.png",ESPN 1 Argentina HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://m3u.tvcluboficial.com/free/ReachBot/Kip/1111.m3u8
-#EXTINF:-1 tvg-id="HBO2LatinAmerica.us@HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/HBO_Cine%2C_fanmade_del_logo_de_Cinemax.png",HBO HD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
-http://45.171.64.30:6060/play/a00i/index.m3u8
+#EXTINF:-1 tvg-id="1524dtv.co" tvg-name="HBO  HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/HBO_Cine%2C_fanmade_del_logo_de_Cinemax.png",HBO  HD
+http://daleplaytv.vip/live/123MMM/654321/55.ts
+#EXTINF:-1 tvg-id="518dtv.ar" tvg-name="SPACE CHANEL  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPteTsp2zPkNGIK2aC8M1_bKG7FUZBaFHrg&usqp=CAU",SPACE CHANEL  HD
+http://daleplaytv.vip/live/123MMM/654321/1281.ts
 #EXTINF:-1 tvg-id="A24.ar@SD" tvg-logo="https://i.imgur.com/LnXQkIU.png" group-title="Respaldos",A24 (2)
 #EXTVLCOPT:http-referrer=https://vmf.edge-apps.net/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0 Win64 x64) AppleWebKit/537.36 (KHTML like Gecko) Chrome/109.0.0.0 Safari/537.36

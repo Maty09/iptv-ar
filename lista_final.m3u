@@ -370,8 +370,6 @@ http://190.128.214.97:64333/play/a057/index.m3u8
 http://190.128.214.97:64333/play/a06l/index.m3u8
 #EXTINF:-1 tvg-id="Canal7TV.ar@SD",Canal 7 TV [Not 24/7]
 https://k-fra32.x10.network/Clrs/test/hls/1158394/playlist.m3u8
-#EXTINF:-1 tvg-id="Space.ar@Panregional",Space
-http://45.171.64.30:6060/play/a04n/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports.ar@SD",Fox Sports
 http://138.59.227.20:8000/play/a085/index.m3u8
 #EXTINF:-1 tvg-id="TelevisionPublica.ar@SD",Television Publica

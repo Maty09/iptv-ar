@@ -324,7 +324,7 @@ https://lbgo.bozztv.com/giatv/giatv-teleposadastv/teleposadastv/playlist.m3u8
 http://138.121.113.175:8000/play/a04r/index.m3u8
 #EXTINF:-1 tvg-id="TelefeRosario.ar@SD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/3/30/Telefe_Rosario_%282018%29.png/960px-Telefe_Rosario_%282018%29.png",Telefe Rosario [Geo-blocked]
 https://smt-usr-edge01.sensa.com.ar/output/ARR2/TelefeRosarioH/playlist.m3u8
-#EXTINF:-1 tvg-id="TelefeTucuman.ar@SD" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6a/El_Ocho_TV_Tucuman.svg/revision/latest?cb=20230211030405",Telefe Tucuman
+#EXTINF:-1 tvg-id="TelefeTucuman.ar@SD" tvg-logo="https://yt3.googleusercontent.com/nr0q9-UkpAo-lXuzVcXD6wCHPnRAw3Vdk8xaM2s5aOIIg1qmIhFz5Y0S0VODm9r_RCmRWCq4X-Y=s72-c-k-c0x00ffffff-no-rj",Telefe Tucuman
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 https://g2.mc-hor.transport.edge-access.net/a05/ngrp:elochotv-100168_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="Canal2MardelPlata.ar@SD" tvg-logo="https://i.imgur.com/wlKFPBW.jpeg",Canal 2 Mar del Plata
@@ -430,8 +430,10 @@ https://www.youtube.com/channel/UCRlakPhec4-k3vkBeyWBojg/live
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://m3u.tvcluboficial.com/free/ReachBot/Kip/1111.m3u8
 #EXTINF:-1 tvg-id="1524dtv.co" tvg-name="HBO  HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/HBO_Cine%2C_fanmade_del_logo_de_Cinemax.png",HBO  HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://daleplaytv.vip/live/123MMM/654321/55.ts
 #EXTINF:-1 tvg-id="518dtv.ar" tvg-name="SPACE CHANEL  HD" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPteTsp2zPkNGIK2aC8M1_bKG7FUZBaFHrg&usqp=CAU",SPACE CHANEL  HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://daleplaytv.vip/live/123MMM/654321/1281.ts
 #EXTINF:-1 tvg-id="A24.ar@SD" tvg-logo="https://i.imgur.com/LnXQkIU.png" group-title="Respaldos",A24 (2)
 #EXTVLCOPT:http-referrer=https://vmf.edge-apps.net/

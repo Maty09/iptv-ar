@@ -432,7 +432,8 @@ http://m3u.tvcluboficial.com/free/ReachBot/Kip/1111.m3u8
 #EXTINF:-1 tvg-id="1524dtv.co" tvg-name="HBO  HD" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/c/c6/HBO_Cine%2C_fanmade_del_logo_de_Cinemax.png",HBO  HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://daleplaytv.vip/live/123MMM/654321/55.ts
-#EXTINF:-1 tvg-id="518dtv.ar" tvg-logo="https://i.imgur.com/xxxx.png" group-title="General",SPACE CHANNEL HD
+#EXTINF:-1 tvg-id="518dtv.ar" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaPteTsp2zPkNGIK2aC8M1_bKG7FUZBaFHrg&usqp=CAU",SPACE CHANNEL HD
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://daleplaytv.vip/live/123MMM/654321/1281.m3u8
 #EXTINF:-1 tvg-id="A24.ar@SD" tvg-logo="https://i.imgur.com/LnXQkIU.png" group-title="Respaldos",A24 (2)
 #EXTVLCOPT:http-referrer=https://vmf.edge-apps.net/

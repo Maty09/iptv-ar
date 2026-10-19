@@ -419,7 +419,7 @@ http://167.249.23.102:8000/play/a0g8/index.m3u8
 #EXTINF:-1 tvg-id="NICKELODEON.ar" tvg-logo="https://i.imgur.com/E84jnP8.png",Nickelodeon HD
 http://181.78.79.131:8000/play/a0qm
 #EXTINF:-1 tvg-logo="https://yt3.googleusercontent.com/adnX4DksDb0f0baaFQOMeEDuW21K-CNNcP_wGGGbDosTLDQCla7MlM07AhQU4H0Kv0rCQ-8-Gw=s240-c-k-c0x00ffffff-no-rj",Canal 10 Tucumán (YouTube)
-https://www.youtube.com/channel/UCRlakPhec4-k3vkBeyWBojg/live
+https://www.youtube.com//channel/UCtBQpq6dtrXgIU7l5XFjj8Q/live
 #EXTINF:-1 tvg-name="ESPN 1 | Argentina" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/world-latin-america/espn-lam.png",ESPN 1 Argentina HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Linux; Android 13; Pixel 7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/112.0.0.0 Mobile Safari/537.36
 http://m3u.tvcluboficial.com/free/ReachBot/Kip/1111.m3u8

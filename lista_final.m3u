@@ -372,8 +372,6 @@ http://138.59.227.20:8000/play/a085/index.m3u8
 http://190.128.214.97:64333/play/a008/index.m3u8
 #EXTINF:-1 tvg-id="Pakapaka.ar@SD" tvg-logo="https://i.imgur.com/GJbRWwH.png",Pakapaka
 http://138.59.227.20:8000/play/a05t/index.m3u8
-#EXTINF:-1 tvg-id="ESPNPremium.ar@HD",ESPN Premium HD
-http://190.128.214.97:64333/play/a02i/index.m3u8
 #EXTINF:-1 tvg-id="TVPublicaMarcosPaz.ar@SD",TV Publica Marcos Paz
 https://ca.centaurychile.com:2443/hls/mediospublicos.m3u8
 #EXTINF:-1 tvg-id="DisneyChannelLatinAmerica.ar@South",Disney Channel Latin America South

@@ -472,8 +472,12 @@ http://190.128.214.97:64333/play/a014/index.m3u8
 http://138.121.15.230:9002/EUROPA-EUROPA/index.m3u8
 #EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Respaldos",Europa Europa (3)
 http://38.252.238.18:8000/play/a01d/index.m3u8
+#EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Respaldos",Europa Europa (4)
+http://45.228.234.9:8000/play/a06z/index.m3u8
 #EXTINF:-1 tvg-id="FilmArts.ar@Panregional" tvg-logo="https://i.imgur.com/ukdmEKD.png" group-title="Respaldos",Film & Arts (2)
 http://200.115.120.1:8000/play/ca131/index.m3u8
+#EXTINF:-1 tvg-id="FilmArts.ar@Panregional" group-title="Respaldos",Film & Arts (3)
+http://45.228.234.9:8000/play/a06g/index.m3u8
 #EXTINF:-1 tvg-id="FoxSports.ar@SD" group-title="Respaldos",Fox Sports (2)
 http://158.172.155.130:8000/play/a09x/index.m3u8
 #EXTINF:-1 tvg-id="MusicTop.ar@SD" tvg-logo="https://cdn.m3u.cl/logo/24_Music_Top.png" group-title="Respaldos",MusicTop (2)

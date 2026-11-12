@@ -473,6 +473,8 @@ http://190.108.83.69:8000/play/a01d/index.m3u8
 http://190.128.214.97:64333/play/a014/index.m3u8
 #EXTINF:-1 tvg-id="ESPNPremium.ar@HD" group-title="Respaldos",ESPN Premium HD (2)
 http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/116.m3u8
+#EXTINF:-1 tvg-id="ESPNPremium.ar@SD" group-title="Respaldos",ESPN Premium (3)
+http://45.134.141.161:2200/ARG/ESPN_Premium_Argentina_HD/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Respaldos",Europa Europa (2)
 http://45.228.234.9:8000/play/a06z/index.m3u8
 #EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Respaldos",Europa Europa (3)

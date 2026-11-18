@@ -53,6 +53,9 @@ https://tv.streamcasthd.com:3641/live/canal2mdplive.m3u8
 https://nd106.republicaservers.com:4433/hls/canal2misioness/index.m3u8
 #EXTINF:-1 tvg-id="Canal2NexTVRafaela.ar@SD",Canal 2 NexTV Rafaela
 https://edge.enhdtv.com/nexthd/index.m3u8
+#EXTINF:-1 tvg-id="Canal3Arroyito.ar@SD",Canal 3 Arroyito
+#EXTVLCOPT:http-referrer=https://canal3.cespalarroyito.coop/
+https://envivo.cespalarroyito.coop/live/Canal3Arroyito.m3u8
 #EXTINF:-1 tvg-id="Canal3Formosa.ar@SD" tvg-logo="https://i.imgur.com/rVDrNIy.png",Canal 3 Formosa
 https://stmvideo6.livecastv.com/agenfor/agenfor/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal3LaPampa.ar@SD" tvg-logo="https://i.imgur.com/SsNFudZ.png",Canal 3 La Pampa
@@ -105,8 +108,13 @@ https://617c5175c970b.streamlock.net:4444/9linklivert/smil:9linkmultibr.smil/pla
 https://stream.arcast.live/ahora/ahora/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal9Resistencia.ar@SD" tvg-logo="https://i.imgur.com/xqgRFpC.png",Canal 9 Resistencia
 http://coninfo.net:1935/9linklivert/smil:9linkmultibr.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal9RioCuarto.ar@SD",Canal 9 Rio Cuarto
+#EXTVLCOPT:http-referrer=https://canal9riocuarto.com.ar/
+https://tv.streamcasthd.com:3249/live/canal9riocuartolive.m3u8
 #EXTINF:-1 tvg-id="Canal10Cordoba.ar@SD" tvg-logo="https://i.imgur.com/87WCHtd.png",Canal 10 Cordoba
 https://stream.arcast.net:4443/canal10/ngrp:canal10_all/playlist.m3u8
+#EXTINF:-1 tvg-id="Canal10Goya.ar@SD",Canal 10 Goya
+https://tv.streamcasthd.com:3637/live/canal10goyalive.m3u8
 #EXTINF:-1 tvg-id="Canal10MardelPlata.ar@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-10-mar-del-plata-ar.png",Canal 10 Mar del Plata
 https://g1.mc-hor.transport.edge-access.net/a12/ngrp:canal10mdq-100044_all/Playlist.m3u8?sense=true
 #EXTINF:-1 tvg-id="Canal12Web.ar@SD",Canal 12 Puerto Madryn [Not 24/7]
@@ -121,6 +129,9 @@ https://genexservicios.com:19360/canal13jujuy/canal13jujuy.m3u8
 http://arcast.net:1935/mp/mp/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal13SanLuis.ar@SD" tvg-logo="https://raw.githubusercontent.com/tv-logo/tv-logos/main/countries/argentina/canal-13-san-luis-ar.png",Canal 13 San Luis
 https://stream.radiosmundiales.com:19360/sanluismas/sanluismas.m3u8
+#EXTINF:-1 tvg-id="Canal20VillaMaria.ar@SD",Canal 20 Villa Maria
+#EXTVLCOPT:http-referrer=https://www.canal20villamaria.com.ar/
+https://stmvideo3.livecastv.com/canal20/canal20/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal21TV.ar@SD" tvg-logo="https://i.imgur.com/Am7yMXg.png",Canal 21 TV
 https://iptv.ixfo.com.ar:30443/c21tv/hd/c21tv/playlist.m3u8
 #EXTINF:-1 tvg-id="Canal22.ar@SD" tvg-logo="https://www.youtube.com/channel/UCiPqb8qbvCBjAFHc-KMujBw/live",Canal 22
@@ -247,6 +258,8 @@ http://190.128.214.97:64333/play/a06o/index.m3u8
 https://videostream.shockmedia.com.ar:19360/neotvdigital/neotvdigital.m3u8
 #EXTINF:-1 tvg-id="NeoxTV.ar@SD" tvg-logo="https://i.imgur.com/eIX71c9.png",Neox TV [Not 24/7]
 https://tv.streamcasthd.com:3031/live/neoxtvlive.m3u8
+#EXTINF:-1 tvg-id="NETTV.ar@SD",NET TV
+http://45.226.205.96:48000/play/a09p/index.m3u8
 #EXTINF:-1 tvg-id="NGFederal.ar@SD" tvg-logo="https://i.imgur.com/lJCIqYn.png",NG Federal
 http://www.coninfo.net:1935/tvlink/live/playlist.m3u8
 #EXTINF:-1 tvg-id="NorteTV.ar@SD",Norte TV [Not 24/7]
@@ -395,19 +408,6 @@ https://stmv6.voxtvhd.com.br/cineclasico/cineclasico/playlist.m3u8
 #EXTINF:-1 tvg-id="XtremaTerror.ar@SD" tvg-logo="https://i.imgur.com/FcaTUym.png",Xtrema Terror
 #EXTVLCOPT:http-referrer=https://xtrematv.com/?p=1456
 https://stmv6.voxtvhd.com.br/cineterror/cineterror/playlist.m3u8
-#EXTINF:-1 tvg-id="NETTV.ar@SD",NET TV
-http://45.226.205.96:48000/play/a09p/index.m3u8
-#EXTINF:-1 tvg-id="Canal3Arroyito.ar@SD",Canal 3 Arroyito
-#EXTVLCOPT:http-referrer=https://canal3.cespalarroyito.coop/
-https://envivo.cespalarroyito.coop/live/Canal3Arroyito.m3u8
-#EXTINF:-1 tvg-id="Canal9RioCuarto.ar@SD",Canal 9 Rio Cuarto
-#EXTVLCOPT:http-referrer=https://canal9riocuarto.com.ar/
-https://tv.streamcasthd.com:3249/live/canal9riocuartolive.m3u8
-#EXTINF:-1 tvg-id="Canal10Goya.ar@SD",Canal 10 Goya
-https://tv.streamcasthd.com:3637/live/canal10goyalive.m3u8
-#EXTINF:-1 tvg-id="Canal20VillaMaria.ar@SD",Canal 20 Villa Maria
-#EXTVLCOPT:http-referrer=https://www.canal20villamaria.com.ar/
-https://stmvideo3.livecastv.com/canal20/canal20/playlist.m3u8
 #EXTINF:-1 tvg-id="CinemaxLatinAmerica.us@HD" tvg-logo="https://i.imgur.com/cZWoJWD.png",Cinemax Latin America HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36
 http://38.65.175.84:8000/play/a093/index.m3u8
@@ -471,10 +471,10 @@ http://190.61.101.11:7050/play/a09s/index.m3u8?hls
 http://190.108.83.69:8000/play/a01d/index.m3u8
 #EXTINF:-1 tvg-id="Encuentro.ar@SD" tvg-logo="https://i.imgur.com/uBBZR1X.png" group-title="Respaldos",Encuentro (2)
 http://190.128.214.97:64333/play/a014/index.m3u8
-#EXTINF:-1 tvg-id="ESPNPremium.ar@HD" group-title="Respaldos",ESPN Premium HD (2)
-http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/116.m3u8
-#EXTINF:-1 tvg-id="ESPNPremium.ar@SD" group-title="Respaldos",ESPN Premium (3)
+#EXTINF:-1 tvg-id="ESPNPremium.ar@SD" group-title="Respaldos",ESPN Premium (2)
 http://45.134.141.161:2200/ARG/ESPN_Premium_Argentina_HD/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="ESPNPremium.ar@HD" group-title="Respaldos",ESPN Premium HD (3)
+http://45.184.109.10/live/69393EAE6ADBC65A68F942022362A202/116.m3u8
 #EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Respaldos",Europa Europa (2)
 http://45.228.234.9:8000/play/a06z/index.m3u8
 #EXTINF:-1 tvg-id="EuropaEuropa.ar@SD" tvg-logo="https://i.imgur.com/w5SOfyJ.png" group-title="Respaldos",Europa Europa (3)
